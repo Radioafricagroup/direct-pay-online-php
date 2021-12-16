@@ -1,19 +1,20 @@
 {
-  "name": "dipnot/direct-pay-online-php",
-  "description": "Unofficial Direct Pay Online API Wrapper",
+  "name": "rag/direct-pay-online-php",
+  "description": "Unofficial Updated Direct Pay Online API Wrapper",
   "type": "library",
   "license": "MIT",
-  "homepage": "https://www.dipnot.com.tr/",
+  "homepage": "https://radioafricagroup.co.ke",
   "keywords": [
 	"direct pay online",
 	"dpo",
 	"payment system",
+	  "recurrent payments",
 	"api"
   ],
   "authors": [
 	{
-	  "name": "Dipnot and Contributors",
-	  "homepage": "https://github.com/dipnot/direct-pay-online-php/contributors"
+	  "name": "tirasmuturi@gmail.com",
+	  "homepage": "https://github.com/Radioafricagroup/direct-pay-online-php/contributors"
 	}
   ],
   "require": {

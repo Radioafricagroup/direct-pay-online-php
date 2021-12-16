@@ -12,7 +12,7 @@ use Dipnot\DirectPayOnline\Request;
  */
 class CreateTokenRequest extends Request
 {
-	const PRODUCTION_PAYMENT_URL = "https://secure.3gdirectpay.com/payv2.php?ID={{TOKEN}}";
+	const PRODUCTION_PAYMENT_URL = "https://secure.3gdirectpay.com/dpopayment.php?ID={{TOKEN}}";
 	const TEST_PAYMENT_URL = "https://secure1.sandbox.directpay.online/payv2.php?ID={{TOKEN}}";
 
 	private $_transaction;

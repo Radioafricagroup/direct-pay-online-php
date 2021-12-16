@@ -4,7 +4,7 @@
 
 Unofficial PHP wrapper for [Direct Pay Online API](https://directpayonline.atlassian.net/wiki/spaces/API/overview)  
   
-Inspired by [cy6erlion/direct-pay-online](https://github.com/cy6erlion/direct-pay-online)  
+Inspired by [dipnot/direct-pay-online-php](https://github.com/dipnot/direct-pay-online-php)  
 
 ## Dependencies
 - PHP 5.6.36 or higher
@@ -15,7 +15,7 @@ Inspired by [cy6erlion/direct-pay-online](https://github.com/cy6erlion/direct-pa
 ## Installation  
 You can install via [Composer](https://getcomposer.org/).  
 
-    composer require dipnot/direct-pay-online-php
+    composer require radioafricagroup/direct-pay-online-php
 
   
 ## Usage  
