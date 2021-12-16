@@ -1,6 +1,6 @@
 # Direct Pay Online API Wrapper for PHP  
-[![Latest Stable Version](https://poser.pugx.org/dipnot/direct-pay-online-php/v)](https://packagist.org/packages/dipnot/direct-pay-online-php)
-[![Total Downloads](https://poser.pugx.org/dipnot/direct-pay-online-php/downloads)](https://packagist.org/packages/dipnot/direct-pay-online-php)
+[![Latest Stable Version](https://poser.pugx.org/rag/direct-pay-online-php/v)](https://packagist.org/packages/rag/direct-pay-online-php)
+[![Total Downloads](https://poser.pugx.org/rag/direct-pay-online-php/downloads)](https://packagist.org/packages/rag/direct-pay-online-php)
 
 Unofficial PHP wrapper for [Direct Pay Online API](https://directpayonline.atlassian.net/wiki/spaces/API/overview)  
   
