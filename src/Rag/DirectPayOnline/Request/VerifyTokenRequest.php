@@ -1,10 +1,10 @@
 <?php
-namespace Dipnot\DirectPayOnline\Request;
-use Dipnot\DirectPayOnline\Request;
+namespace Rag\DirectPayOnline\Request;
+use Rag\DirectPayOnline\Request;
 
 /**
  * Class VerifyTokenRequest
- * @package Dipnot\DirectPayOnline\Request
+ * @package Rag\DirectPayOnline\Request
  *
  * @see     https://directpayonline.atlassian.net/wiki/spaces/API/pages/32702465/verifyToken+V6
  */

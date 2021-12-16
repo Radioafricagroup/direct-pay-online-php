@@ -1,9 +1,9 @@
 <?php
-namespace Dipnot\DirectPayOnline\Model;
+namespace Rag\DirectPayOnline\Model;
 
 /**
  * Class Transaction
- * @package Dipnot\DirectPayOnline\Model
+ * @package Rag\DirectPayOnline\Model
  *
  * @see     https://directpayonline.atlassian.net/wiki/spaces/API/pages/36110341/createToken+V6
  */

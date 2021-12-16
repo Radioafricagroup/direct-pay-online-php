@@ -1,5 +1,5 @@
 <?php
-use Dipnot\DirectPayOnline\Request\VerifyTokenRequest;
+use Rag\DirectPayOnline\Request\VerifyTokenRequest;
 
 /**
  * The payment page send data on GET

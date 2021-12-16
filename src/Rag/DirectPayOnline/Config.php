@@ -1,9 +1,9 @@
 <?php
-namespace Dipnot\DirectPayOnline;
+namespace Rag\DirectPayOnline;
 
 /**
  * Class Config
- * @package Dipnot\DirectPayOnline
+ * @package Rag\DirectPayOnline
  */
 class Config
 {

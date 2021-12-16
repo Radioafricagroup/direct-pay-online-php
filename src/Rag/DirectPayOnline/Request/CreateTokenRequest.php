@@ -1,12 +1,12 @@
 <?php
-namespace Dipnot\DirectPayOnline\Request;
-use Dipnot\DirectPayOnline\Model\Service;
-use Dipnot\DirectPayOnline\Model\Transaction;
-use Dipnot\DirectPayOnline\Request;
+namespace Rag\DirectPayOnline\Request;
+use Rag\DirectPayOnline\Model\Service;
+use Rag\DirectPayOnline\Model\Transaction;
+use Rag\DirectPayOnline\Request;
 
 /**
  * Class CreateTokenRequest
- * @package Dipnot\DirectPayOnline\Request
+ * @package Rag\DirectPayOnline\Request
  *
  * @see     https://directpayonline.atlassian.net/wiki/spaces/API/pages/36110341/createToken+V6
  */

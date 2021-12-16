@@ -1,5 +1,5 @@
 <?php
-use Dipnot\DirectPayOnline\Config;
+use Rag\DirectPayOnline\Config;
 
 require_once("./../vendor/autoload.php");
 

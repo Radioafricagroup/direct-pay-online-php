@@ -4,7 +4,7 @@
 
 Unofficial PHP wrapper for [Direct Pay Online API](https://directpayonline.atlassian.net/wiki/spaces/API/overview)  
   
-Inspired by [dipnot/direct-pay-online-php](https://github.com/dipnot/direct-pay-online-php)  
+Inspired by [dipnot/direct-pay-online-php](https://github.com/radioafricagroup/direct-pay-online-php)  
 
 ## Dependencies
 - PHP 5.6.36 or higher
@@ -19,11 +19,11 @@ You can install via [Composer](https://getcomposer.org/).
 
   
 ## Usage  
-You can see the full example in [examples](https://github.com/dipnot/direct-pay-online-php/tree/main/examples) folder.
+You can see the full example in [examples](https://github.com/radioafricagroup/direct-pay-online-php/tree/main/examples) folder.
 ### Config
 All request are needs a Config.
 ```php  
-use Dipnot\DirectPayOnline\Config;
+use Rag\DirectPayOnline\Config;
 
 $config = new Config();  
 $config->setCompanyToken("9F416C11-127B-4DE2-AC7F-D5710E4C5E0A");  
@@ -31,21 +31,21 @@ $config->setTestMode(true);
 ```
 ### Transaction
 ```php  
-use Dipnot\DirectPayOnline\Model\Transaction;
+use Rag\DirectPayOnline\Model\Transaction;
 
 $transaction = new Transaction(100, "USD");
 ```  
 
 ### Service
 ```php  
-use Dipnot\DirectPayOnline\Model\Service;
+use Rag\DirectPayOnline\Model\Service;
 
 $service = new Service("Test Product", 3854, "2020/02/12 11:21");
 ```  
 ### "createToken" Request
 Create a token to start payment process.  
 ```php  
-use Dipnot\DirectPayOnline\Request\CreateTokenRequest;
+use Rag\DirectPayOnline\Request\CreateTokenRequest;
 
 $createTokenRequest = new CreateTokenRequest($config);  
 $createTokenRequest->setTransaction($transaction);  
@@ -58,7 +58,7 @@ print_r($createToken);
 ### "verifyToken" Request
 Get the payment result by using VerifyTokenRequest.
 ```php  
-use Dipnot\DirectPayOnline\Request\VerifyTokenRequest;
+use Rag\DirectPayOnline\Request\VerifyTokenRequest;
 
 $verifyTokenRequest = new VerifyTokenRequest($config);
 $verifyTokenRequest->setTransactionToken($_GET["TransactionToken"]);
@@ -84,4 +84,4 @@ You can fill the personal info randomly in the payment page.
 |Card CVV|123|  
   
 ## License  
-[![License: MIT](https://img.shields.io/badge/License-MIT-%232fdcff)](https://github.com/dipnot/direct-pay-online-php/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-%232fdcff)](https://github.com/radioafricagroup/direct-pay-online-php/blob/main/LICENSE)

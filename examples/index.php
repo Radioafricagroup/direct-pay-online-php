@@ -1,7 +1,7 @@
 <?php
-use Dipnot\DirectPayOnline\Model\Service;
-use Dipnot\DirectPayOnline\Model\Transaction;
-use Dipnot\DirectPayOnline\Request\CreateTokenRequest;
+use Rag\DirectPayOnline\Model\Service;
+use Rag\DirectPayOnline\Model\Transaction;
+use Rag\DirectPayOnline\Request\CreateTokenRequest;
 
 require_once("./../vendor/autoload.php");
 
