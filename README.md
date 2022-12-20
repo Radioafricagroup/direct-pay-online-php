@@ -72,6 +72,13 @@ Get the payment URL with the created token to redirect the user to the payment p
 $paymentUrl = $createTokenRequest->getPaymentUrl($createToken["TransToken"]);  
 print_r($paymentUrl);
 ```  
+
+### Doing Recurrent Payments  
+Make payments recurr so some items.  
+```php  
+$paymentUrl = $createTokenRequest->getPaymentUrl($createToken["TransToken"]);  
+print_r($paymentUrl);
+```  
   
 ## Test values  
 You can fill the personal info randomly in the payment page.  
