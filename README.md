@@ -73,11 +73,15 @@ $paymentUrl = $createTokenRequest->getPaymentUrl($createToken["TransToken"]);
 print_r($paymentUrl);
 ```  
 
-### Doing Recurrent Payments  
-Make payments recurr so some items.  
+### Recurrent Payments  
+### Step 1
+Fetch subscription tokens for users.
 ```php  
-$paymentUrl = $createTokenRequest->getPaymentUrl($createToken["TransToken"]);  
-print_r($paymentUrl);
+$getSubscriptionTokenRequest = new GetSubscriptionTokenRequest($config);
+$getSubscriptionTokenRequest->setSearchCriteria($searchCriteriaSearch);  
+$getSubscriptionTokenRequest->setSearchCriteriaValue($searchCriteriaSearchValue);  
+$getSubscriptionToken = $getSubscriptionTokenRequest->execute();  
+print_r($getSubscriptionToken);
 ```  
   
 ## Test values  
