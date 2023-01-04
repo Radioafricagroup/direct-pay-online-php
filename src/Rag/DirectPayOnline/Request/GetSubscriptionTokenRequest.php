@@ -84,8 +84,8 @@ class GetSubscriptionTokenRequest extends Request{
     }
     function execute()
     {
-        if(!$this->getTransactionToken() && !$this->getCompanyRef()) {
-            exit("TransactionToken or CompanyRef must be set.");
+        if(!$this->getCompanyRef()) {
+            exit("CompanyRef must be set.");
         }
 
         $xml = "";
