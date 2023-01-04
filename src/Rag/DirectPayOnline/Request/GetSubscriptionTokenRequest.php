@@ -1,5 +1,7 @@
 <?php
+namespace Rag\DirectPayOnline\Request;
 use Rag\DirectPayOnline\Request;
+
 
 /**
  * Class GetSubscriptionTokenRequest
