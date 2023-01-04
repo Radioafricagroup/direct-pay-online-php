@@ -1,6 +1,12 @@
 <?php
 use Rag\DirectPayOnline\Request;
 
+/**
+ * Class GetSubscriptionTokenRequest
+ * @package Rag\DirectPayOnline\Request
+ *
+ * @see     https://directpayonline.atlassian.net/wiki/spaces/API/pages/337903619/getSubscriptionToken
+ */
 
 class GetSubscriptionTokenRequest extends Request{
 

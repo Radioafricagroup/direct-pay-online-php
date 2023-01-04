@@ -25,6 +25,9 @@ $createTokenRequest->addService($service2);
 $createToken = $createTokenRequest->execute();
 print_r($createToken);
 
+
+// Test recurrent
+$checkRecurrentStatus = new GetSubscriptionTokenRequest($config);
 // Get payment URL with created token
 $paymentUrl = $createTokenRequest->getPaymentUrl($createToken["TransToken"]);
 print_r($paymentUrl);
