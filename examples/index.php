@@ -1,6 +1,7 @@
 <?php
 use Rag\DirectPayOnline\Model\Service;
 use Rag\DirectPayOnline\Model\Transaction;
+use Rag\DirectPayOnline\Request\ChargeTokenRecurrentRequest;
 use Rag\DirectPayOnline\Request\CreateTokenRequest;
 
 require_once("./../vendor/autoload.php");
@@ -27,7 +28,7 @@ print_r($createToken);
 
 
 // Test recurrent
-$checkRecurrentStatus = new GetSubscriptionTokenRequest($config);
+$checkRecurrentStatus = new ChargeTokenRecurrentRequest($config);
 // Get payment URL with created token
 $paymentUrl = $createTokenRequest->getPaymentUrl($createToken["TransToken"]);
 print_r($paymentUrl);
