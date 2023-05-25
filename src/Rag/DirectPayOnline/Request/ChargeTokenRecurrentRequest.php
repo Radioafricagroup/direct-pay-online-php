@@ -76,7 +76,7 @@ class ChargeTokenRecurrentRequest extends Request{
         $xml .= "<CompanyToken>{$this->_config->getCompanyToken()}</CompanyToken>";
         $xml .= "<Request>chargeTokenRecurrent</Request>";
         $xml .= "<TransactionToken>{$this->getTransactionToken()}</TransactionToken>";
-        $xml .= "<SubscriptionToken>{$this->getSubscriptionToken()}</SubscriptionToken>";
+        $xml .= "<subscriptionToken>{$this->getSubscriptionToken()}</subscriptionToken>";
         $xml .= "</API3G>";
 
         return $this->_client->post("/v6/", $xml); // Do not delete the slash of the end
