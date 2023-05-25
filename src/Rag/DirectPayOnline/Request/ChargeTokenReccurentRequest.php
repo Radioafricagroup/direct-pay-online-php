@@ -14,10 +14,7 @@ class ChargeTokenRecurrentRequest extends Request{
 
     private $_transactionToken = "";
     private $_companyRef = "";
-    private $_veirfyTransaction = ""; // Documentation has typo too
-    private $_accRef = "";
-    private $_searchCriteria = "";
-    private $_searchCriteriaValue = "";
+    private $_subscriptionTokenValue = "";
 
     /**
      * @return string
@@ -56,15 +53,15 @@ class ChargeTokenRecurrentRequest extends Request{
      */
     function getSubscriptionToken()
     {
-        return $this->_searchCriteriaValue;
+        return $this->_subscriptionTokenValue;
     }
 
     /**
-     * @param $searchCriteriaValue
+     * @param $subscriptionTokenValue
      */
-    function setSubscriptionToken($searchCriteriaValue)
+    function setSubscriptionToken($subscriptionTokenValue)
     {
-        $this->_searchCriteriaValue = $searchCriteriaValue;
+        $this->_subscriptionTokenValue = $subscriptionTokenValue;
     }
     function execute()
     {
