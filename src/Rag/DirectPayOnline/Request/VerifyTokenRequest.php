@@ -156,6 +156,6 @@ class VerifyTokenRequest extends Request
 		}
 		$xml .= "</API3G>";
 
-		return $this->_client->post("/v6/", $xml); // Do not delete the slash of the end
+		return $this->_client->post("/v7/", $xml); // Do not delete the slash of the end
 	}
 }
