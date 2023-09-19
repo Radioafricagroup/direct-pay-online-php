@@ -11,6 +11,7 @@ use Rag\DirectPayOnline\Request;
 class RefundTokenRequest extends Request
 {
 	private $_transactionToken = "";
+	private $_refundAmount = "";
 	private $_companyRef = "";
 
 	/**
@@ -34,7 +35,7 @@ class RefundTokenRequest extends Request
 	 */
 	function getRefundAmount()
 	{
-		return $this->_transactionToken;
+		return $this->_refundAmount;
 	}
 
 	/**
@@ -42,7 +43,7 @@ class RefundTokenRequest extends Request
 	 */
 	function setRefundAmount($refundAmount)
 	{
-		$this->_transactionToken = $refundAmount;
+		$this->_refundAmount = $refundAmount;
 	}
 
 	/**
