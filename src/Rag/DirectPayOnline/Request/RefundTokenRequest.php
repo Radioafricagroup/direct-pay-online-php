@@ -3,12 +3,12 @@ namespace Rag\DirectPayOnline\Request;
 use Rag\DirectPayOnline\Request;
 
 /**
- * Class refundTokenRequest
+ * Class RefundTokenRequest
  * @package Rag\DirectPayOnline\Request
  *
  * @see     https://directpayonline.atlassian.net/wiki/spaces/API/pages/808949/refundToken
  */
-class refundTokenRequest extends Request
+class RefundTokenRequest extends Request
 {
 	private $_transactionToken = "";
 	private $_companyRef = "";
