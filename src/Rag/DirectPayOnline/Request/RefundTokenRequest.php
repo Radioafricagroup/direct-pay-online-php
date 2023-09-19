@@ -107,6 +107,6 @@ class RefundTokenRequest extends Request
 		$xml .= "<refundDetails>{$this->getRefundDescription()}</refundDetails>";
 		$xml .= "</API3G>";
 
-		return $this->_client->post("/v7/", $xml); // Do not delete the slash of the end
+		return $this->_client->post("/v6/", $xml); // Do not delete the slash of the end
 	}
 }
