@@ -12,6 +12,7 @@ class RefundTokenRequest extends Request
 {
 	private $_transactionToken = "";
 	private $_refundAmount = "";
+    private $_refundDescription = "";
 	private $_companyRef = "";
 
 	/**
@@ -45,6 +46,22 @@ class RefundTokenRequest extends Request
 	{
 		$this->_refundAmount = $refundAmount;
 	}
+
+    /**
+     * @return string
+     */
+    function getRefundDescription()
+    {
+        return $this->_refundDescription;
+    }
+
+    /**
+     * @param string $refundDescription
+     */
+    function setRefundDescription($refundDescription)
+    {
+        $this->_refundDescription = $refundDescription;
+    }
 
 	/**
 	 * @return string
